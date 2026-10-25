@@ -60,6 +60,10 @@ export default function Login() {
         <button type="submit" disabled={submitting} className="btn-primary w-full">
           {submitting ? "Logging in..." : "Log in"}
         </button>
+
+        <p className="text-xs text-gray-400 text-center pt-1">
+          Demo login: admin@demo.com / demo1234
+        </p>
       </form>
     </div>
   );
